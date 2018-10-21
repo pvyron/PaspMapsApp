@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ChemEngMaps"
+             x:Class="ChemEngMaps.MainPage">
+
+    <StackLayout>
+        <StackLayout VerticalOptions="StartAndExpand" >
+            <Image x:Name="Header" HorizontalOptions="StartAndExpand" />
+        </StackLayout>
+        
+        <StackLayout x:Name="Buttons" VerticalOptions="StartAndExpand" HorizontalOptions="Fill">
+            <Button x:Name="maps" />
+            <Button x:Name="profs"  />
+            <Button x:Name="rooms" />
+            <Button x:Name="creds" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
