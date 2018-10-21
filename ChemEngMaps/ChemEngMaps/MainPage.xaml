@@ -8,13 +8,17 @@
         <StackLayout VerticalOptions="StartAndExpand" >
             <Image x:Name="Header" HorizontalOptions="StartAndExpand" />
         </StackLayout>
-        
+
         <StackLayout x:Name="Buttons" VerticalOptions="StartAndExpand" HorizontalOptions="Fill">
             <Button x:Name="maps" />
             <Button x:Name="profs"  />
             <Button x:Name="rooms" />
             <Button x:Name="creds" />
         </StackLayout>
-    </StackLayout>
+        <StackLayout VerticalOptions="EndAndExpand">
+            <Image x:Name="Footer" HorizontalOptions="CenterAndExpand" Source="footerimg.png" />
+
+        </StackLayout>
+        </StackLayout>
 
 </ContentPage>
