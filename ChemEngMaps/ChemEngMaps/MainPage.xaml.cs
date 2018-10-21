@@ -23,5 +23,11 @@ namespace ChemEngMaps
             rooms.Text = @"Αίθουσες Διδασκαδίας - Εργαστήρια";
             creds.Text = @"Credits";
         }
+
+        public void maps_Clicked(object Sender, EventArgs e)
+        {
+            Maps.MapsFloorList nPage = new Maps.MapsFloorList();
+            Navigation.PushModalAsync(nPage);
+        }
     }
 }
